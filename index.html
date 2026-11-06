@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Práctico - Mi Sitio Web</title>
+    <!-- Vinculación con los estilos CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ENCABEZADO: Integración del Logotipo (Submódulo I) -->
+    <header>
+        <!-- Reemplaza 'logotipo.png' por el nombre real de tu imagen de marca -->
+        <img src="logotipo.png" alt="Logotipo de la Marca" class="logo">
+        <h1>Bienvenidos a Mi Proyecto Web</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#multimedia">Multimedia</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main id="inicio">
+        
+        <section>
+            <h2>Sobre el Proyecto</h2>
+            <p>Este sitio web ha sido diseñado aplicando principios visuales de <strong>contraste, alineación y jerarquía tipográfica</strong>. En este espacio se unifican las competencias desarrolladas a lo largo de los distintos submódulos del curso.</p>
+        </section>
+
+        <!-- INTEGRACIÓN MULTIMEDIA: Animación o Video (Submódulo II) -->
+        <section id="multimedia">
+            <h2>Portafolio Multimedia</h2>
+            <p>A continuación se presenta la animación/video correspondiente al Submódulo II, integrada de manera nativa en el flujo de la página:</p>
+            
+            <div class="media-container">
+                <!-- OPCIÓN A: Si tienes un archivo de video local (ej. mp4) desmarca las líneas de abajo -->
+                <!-- 
+                <video controls width="640">
+                    <source src="animacion.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproducción de video.
+                </video> 
+                -->
+
+                <!-- OPCIÓN B: Si subiste tu video a YouTube, reemplaza el enlace en 'src' -->
+                <iframe width="560" height="315" src="https://youtube.com" title="Reproductor de video" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Alumno: [Tu Nombre y Apellido]<br>
+               Módulo: Maquetación y Publicación Web<br>
+               Año: 2026</p>
+        </section>
+
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>&copy; 2026 - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
